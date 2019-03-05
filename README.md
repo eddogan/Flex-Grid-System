@@ -20,14 +20,14 @@ All sections are utilizing the full width of the browser. Narrower components ar
 #### Section classes
 Following classes can be added to the section in order to achieve the desired design features.
 ```
-.fs {height: 100vh;}
-.margin {margin: 8vh 0;}
-.topmargin {margin-top: 8vh;}
-.bottommargin {margin-bottom: 8vh;}
-.padding {padding: 8vh 0;}
-.toppadding {padding-top: 8vh;}
+.fs            {height: 100vh;}
+.margin        {margin: 8vh 0;}
+.topmargin     {margin-top: 8vh;}
+.bottommargin  {margin-bottom: 8vh;}
+.padding       {padding: 8vh 1.5vw;}
+.toppadding    {padding-top: 8vh;}
 .bottompadding {padding-bottom: 8vh;}
-.overflow {overflow: visible;}
+.overflow      {overflow: visible;}
 ```
      
 ### Column Types
