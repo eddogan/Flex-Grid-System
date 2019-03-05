@@ -1,6 +1,7 @@
 # Flex-Grid-System
   1. [HTML](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#html5-markup)
-  2. [CSS](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#css3-classes)  
+  2. [CSS](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#css3-classes)
+  3. [Breakpoints](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#breakpoints)
 
 ## HTML5 Markup
 Following structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
@@ -85,3 +86,5 @@ Adjusts the top and bottom margins and paddings. Adding padding or margin to the
 .bottompadding {padding-bottom: 8vh;}
 ```
 
+## Breakpoints
+1366px 1024px 768px 480px 
