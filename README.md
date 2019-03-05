@@ -2,7 +2,7 @@
 is utilizing custom html5 elements, so your html markup is important! Check out the examples below for proper usage.   
 
 ## HTML5 Markup
-Each component should start with a `<section>` with a **container** class, followed by a **column type** element and end with an **inner column** element. This structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
+Following structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
 
 ```
 <section class="container-class">
@@ -17,18 +17,15 @@ Each component should start with a `<section>` with a **container** class, follo
 ## Sections
 All sections are utilizing the full width of the browser. Narrower components are handled with the column types. By default, it has a flex layout that centers the content both vertically and horizontally. All sections have `padding-left: 1.5vw;` and `  padding-right: 1.5vw;` in order to keep the distance between the columns and the right and left side of the page equal. 
 
-### Container classes
+### Classes
 Following classes can be added to the section in order to achieve the desired design features.
 ```
+// SECTION
 .fs            {height: 100vh;}
 .narrow        {max-width: 90%; -ms-flex: 0 0 90%; flex: 0 0 90%;}
-.margin        {margin: 8vh 0;}
-.topmargin     {margin-top: 8vh;}
-.bottommargin  {margin-bottom: 8vh;}
-.padding       {padding: 8vh 1.5vw;}
-.toppadding    {padding-top: 8vh;}
-.bottompadding {padding-bottom: 8vh;}
 .overflow      {overflow: visible;}
+
+// SECTION + COLUMN
 .jc_center     {justify-content: center;}
 .ai_center     {align-items: center;}
 .jc_start      {justify-content: flex-start;}
@@ -39,6 +36,14 @@ Following classes can be added to the section in order to achieve the desired de
 .ai_between    {align-items: space-between;}
 .jc_around    {justify-content: space-around;}
 .ai_around    {align-items: space-around;}
+
+// SECTION + COLUMN + INNER COLUMN 
+.margin        {margin: 8vh 0;}
+.topmargin     {margin-top: 8vh;}
+.bottommargin  {margin-bottom: 8vh;}
+.padding       {padding: 8vh 1.5vw;}
+.toppadding    {padding-top: 8vh;}
+.bottompadding {padding-bottom: 8vh;}
 ```
      
 ## Column Types
