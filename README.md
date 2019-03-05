@@ -30,6 +30,7 @@ All sections are utilizing the full width of the browser. Narrow layouts should 
 </section>
 ```
 By default sections have a flex layout that centers the content both vertically and horizontally. Further alignment options can be achieved by adding alignment classes.
+
 All sections have `padding-left: 1.5vw;` and `  padding-right: 1.5vw;` in order to keep the distance between the columns and the right and left side of the page equal. 
 
 ### Columns
@@ -51,12 +52,15 @@ Provides an equal distance of top, bottom, right and left padding for the inner 
 
 ## Classes
 Following classes can be added to the grid elements
+### Section-specific 
 ```
 // SECTION
 .vh100         {height: 100vh;}
 .overflow      {overflow: visible;}
-
-// SECTION + COLUMN
+```
+### Alignment classes
+```
+// SECTION + COLUMN 
 .jc_center     {justify-content: center;}
 .ai_center     {align-items: center;}
 .jc_start      {justify-content: flex-start;}
@@ -67,7 +71,10 @@ Following classes can be added to the grid elements
 .ai_between    {align-items: space-between;}
 .jc_around    {justify-content: space-around;}
 .ai_around    {align-items: space-around;}
-
+```
+### Margin and padding classes
+Adjusts the top and bottom margins and paddings. Adding padding or margin to the sides of the elements should be avoided in order to keep consistency throughout the site.
+```
 // SECTION + COLUMN + INNER COLUMN 
 .margin        {margin-top: 8vh; margin-bottom: 8vh;}
 .topmargin     {margin-top: 8vh;}
