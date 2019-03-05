@@ -1,5 +1,6 @@
 # Flex-Grid-System
-is utilizing custom html5 elements, so your html markup is important! Check out the examples below for proper usage.   
+[HTML]()
+[CSS]  
 
 ## HTML5 Markup
 Following structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
@@ -50,7 +51,7 @@ Start with a `c-` and then the percentage of the column. All column layouts are 
 ### Inner columns
 Provides an equal distance of top, bottom, right and left padding for the inner content of the columns. 
 
-## Classes
+## CSS3 Classes
 Following classes can be added to the grid elements
 ### Section-specific 
 ```
