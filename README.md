@@ -1,6 +1,6 @@
 # Flex-Grid-System
-[HTML](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#html5-markup)
-[CSS](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#css3-classes)  
+  1. [HTML](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#html5-markup)
+  2. [CSS](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#css3-classes)  
 
 ## HTML5 Markup
 Following structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
