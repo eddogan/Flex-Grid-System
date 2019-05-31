@@ -8,7 +8,7 @@
 Following structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
 
 ```
-<section class="margin">
+<section>
     <c-33>
       <c-inner>
         ...
@@ -21,7 +21,7 @@ Following structure should be followed in all sections in order to provide consi
 ### Sections
 All sections are utilizing the full width of the browser. Narrow layouts should be handled with a container column type such as `c-90` or `c-80`.
 ```
-<section class="margin">
+<section>
   <c-80>
     <c-33>
       <c-inner>
