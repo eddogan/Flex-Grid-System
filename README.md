@@ -2,6 +2,7 @@
   1. [HTML](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#html5-markup)
   2. [CSS](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#css3-classes)
   3. [Breakpoints](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#breakpoints)
+  4. [Examples](https://github.com/eddogan/Flex-Grid-System/blob/master/README.md#examples)
 
 ## HTML5 Markup
 Following structure should be followed in all sections in order to provide consistent padding/margin throughout the site.
@@ -60,31 +61,27 @@ Following classes can be added to the grid elements
 .vh100         {height: 100vh;}
 .overflow      {overflow: visible;}
 ```
-### Alignment classes
-```
-// SECTION + COLUMN 
-.jc_center     {justify-content: center;}
-.ai_center     {align-items: center;}
-.jc_start      {justify-content: flex-start;}
-.ai_start      {align-items: flex-start;}
-.jc_end        {justify-content: flex-end;}
-.ai_end        {align-items: flex-end;}
-.jc_between    {justify-content: space-between;}
-.ai_between    {align-items: space-between;}
-.jc_around    {justify-content: space-around;}
-.ai_around    {align-items: space-around;}
-```
+
 ### Margin and padding classes
-Adjusts the top and bottom margins and paddings. Adding padding or margin to the sides of the elements should be avoided in order to keep consistency throughout the site.
+Adjusts the top and bottom margins and paddings. Adding padding or margin to the sides of the elements should be avoided in order to keep consistency throughout the site. 
 ```
 // SECTION + COLUMN + INNER COLUMN 
-.margin        {margin-top: 8vh; margin-bottom: 8vh;}
-.topmargin     {margin-top: 8vh;}
-.bottommargin  {margin-bottom: 8vh;}
-.padding       {padding-top: 8vh; padding-bottom: 8vh;}
-.toppadding    {padding-top: 8vh;}
-.bottompadding {padding-bottom: 8vh;}
+.margin {margin-top: $gutter-vertical; margin-bottom: $gutter-vertical;}
+.margin-none {margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0;}
+.margin-top {margin-top: $gutter-vertical;}
+.margin-bottom {margin-bottom: $gutter-vertical;}
+.margin-horizontal {margin-left: $gutter-horizontal; margin-right: $gutter-horizontal;}
+.padding {padding-top: $gutter-vertical; padding-bottom: $gutter-vertical;}
+.padding-none {padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;}
+.padding-top {padding-top: $gutter-vertical;}
+.padding-bottom {padding-bottom: $gutter-vertical;}
+.padding-horizontal {padding-left: $gutter-horizontal; padding-right: $gutter-horizontal;}
 ```
 
 ## Breakpoints
-1366px 1024px 768px 480px 
+1366px 
+1024px 
+768px 
+480px 
+
+## Examples
