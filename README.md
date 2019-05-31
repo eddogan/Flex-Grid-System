@@ -37,7 +37,7 @@ By default sections have a flex layout that centers the content both vertically 
 All sections have `padding-left: 1.5vw;` and `  padding-right: 1.5vw;` in order to keep the distance between the columns and the right and left side of the page equal. 
 
 ### Columns
-Start with a `c-` and then the percentage of the column. All column layouts are utilizing an `inline-flex` display property in order to be able to arrange the content within the column and also to directly use columns within columns. 
+Start with a `c-` and then the percentage of the column.  
   1. `c-20`
   2. `c-25`
   3. `c-33`
@@ -60,6 +60,13 @@ Following classes can be added to the grid elements
 // SECTION
 .vh100         {height: 100vh;}
 .overflow      {overflow: visible;}
+```
+### Column-specific
+`.flexed` class can be used with a column element, expecially useful when there's a container column.
+
+```
+@mixin flexed {display: flex; flex-wrap: wrap;}
+.flexed {@include flexed;}
 ```
 
 ### Margin and padding classes
