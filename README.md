@@ -22,7 +22,7 @@ Following structure should be followed in all sections in order to provide consi
 All sections are utilizing the full width of the browser. Narrow layouts should be handled with a container column type such as `c-90` or `c-80`.
 ```
 <section>
-  <c-80>
+  <c-80 class="flexed jc_center ai_center">
     <c-33>
       <c-inner>
         ...
