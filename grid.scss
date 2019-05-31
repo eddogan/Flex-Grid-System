@@ -17,13 +17,15 @@ section, .section {
 }
 
 .margin {margin-top: $gutter-vertical; margin-bottom: $gutter-vertical;}
-.margin-none {margin-top: 0; margin-bottom: 0;}
+.margin-none {margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0;}
 .margin-top {margin-top: $gutter-vertical;}
 .margin-bottom {margin-bottom: $gutter-vertical;}
+.margin-horizontal {margin-left: $gutter-horizontal; margin-right: $gutter-horizontal;}
 .padding {padding-top: $gutter-vertical; padding-bottom: $gutter-vertical;}
-.padding-none {padding-top: 0; padding-bottom: 0;}
+.padding-none {padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;}
 .padding-top {padding-top: $gutter-vertical;}
 .padding-bottom {padding-bottom: $gutter-vertical;}
+.padding-horizontal {padding-left: $gutter-horizontal; padding-right: $gutter-horizontal;}
 
 .overflow {overflow: visible;}
 
