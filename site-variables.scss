@@ -1,0 +1,25 @@
+$color-brand: #004123;
+$color-secondary: #8BBD8B;
+$color-orange: #c98868;
+$color-brown: #574946;
+$color-purple: #462146;
+
+$gutter-vertical: 8vh;
+$gutter-horizontal: 1.5vw;
+$gutter-horizontal-mobile: 32px;
+$gutter-horizontal-tablet: 64px;
+
+$header-top-height: 40px;
+$header-bottom-height: 80px;
+
+$header-height: calc(#{$header-top-height} + #{$header-bottom-height});
+$header-height-mobile: 60px;
+
+$border-radius: 0;
+
+$h1: 3em;
+$h2: 2em;
+$h3: 1.6em;
+$h4: 1.4em;
+$h5: 1.2em;
+$h6: 1.1em;
